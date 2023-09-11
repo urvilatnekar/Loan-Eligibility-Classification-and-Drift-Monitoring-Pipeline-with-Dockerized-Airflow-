@@ -1,16 +1,16 @@
 RUN_LOCAL = False # is a boolean variable that determines whether the code should run in a local environment 
 if RUN_LOCAL:
-    PATH_DIR_DATA = "C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/data" 
-    PATH_DIR_MODELS = ".C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/models"
-    PATH_DIR_RESULTS = "C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/results"
-    PATH_TO_CREDENTIALS = "C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/Creds.json"
-    PATH_TO_APP_SHELL = "C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/app.sh"
+    PATH_DIR_DATA = "C:/data" 
+    PATH_DIR_MODELS = ".C:/models"
+    PATH_DIR_RESULTS = "C:/results"
+    PATH_TO_CREDENTIALS = "C:/Creds.json"
+    PATH_TO_APP_SHELL = "C:/app.sh"
 else:
-    PATH_DIR_DATA = "C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/data"
-    PATH_DIR_MODELS = "C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/models"
-    PATH_DIR_RESULTS = "C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/results"
-    PATH_TO_CREDENTIALS = "C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/Creds.json"
-    PATH_TO_APP_SHELL = "C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Loan Eligibility Classification and Drift Monitoring Pipeline with Dockerized Airflow/airflow/dags/app.sh"
+    PATH_DIR_DATA = "C:/data"
+    PATH_DIR_MODELS = "C:/models"
+    PATH_DIR_RESULTS = "C:/results"
+    PATH_TO_CREDENTIALS = "C:/Creds.json"
+    PATH_TO_APP_SHELL = "C:/app.sh"
 
 RANDOM_SEED = 42 #This line sets the random seed to 42. A random seed is used to initialize the random number generator, ensuring that the same sequence of random numbers is generated each time the code is run. It's often used to make experiments reproducible.
 TEST_SPLIT_SIZE = 0.3
